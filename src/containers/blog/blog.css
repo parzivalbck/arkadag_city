@@ -1,0 +1,43 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.blog-heading h1 {
+  margin: 0;
+  margin-left: 130px;
+  font-weight: 700;
+  font-size: 34px;
+  color: #2448c9;
+}
+.more {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 5px;
+  margin-right: 130px;
+  color: #0067ff;
+  text-align: right;
+  font-weight: 600;
+  font-size: 17px;
+}
+.more img {
+  width: 20px;
+}
+@media screen and (max-width: 700px) {
+  .blog-heading h1 {
+    font-size: 46px;
+    line-height: 52px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .blog-heading h1 {
+    font-size: 34px;
+    line-height: 42px;
+    margin-left: 10px;
+  }
+  .more_button {
+    margin-left: 10px;
+  }
+}

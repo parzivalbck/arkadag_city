@@ -1,0 +1,32 @@
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  color: white;
+  height: 65px;
+  width: 1550px;
+  top: 0;
+  z-index: 9999999;
+  background: #fff;
+}
+
+.navbar_items .navbar_menu {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+    color: white;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+  }
+}

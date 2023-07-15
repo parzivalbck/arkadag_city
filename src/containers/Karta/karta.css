@@ -1,0 +1,441 @@
+* {
+  transition: all 0.2s linear;
+}
+.karta_wrapper {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 120px;
+}
+h1 {
+}
+.karta_wrapper img {
+  width: 110%;
+  margin-left: -5%;
+}
+.karta {
+  position: relative;
+}
+.buton {
+  position: absolute;
+  top: 31%;
+  left: 50%;
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid blue;
+  color: black;
+  font-weight: bold;
+}
+
+.modal {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  width: 300px;
+  background: #fff;
+  border: 3px solid blue;
+  border-radius: 20px;
+  padding: 10px 20px;
+  z-index: 9999;
+}
+.buton2 {
+  position: absolute;
+  top: 41%;
+  left: 50%;
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid blue;
+  color: black;
+  font-weight: bold;
+}
+
+.modal2 {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  width: 300px;
+  background: #fff;
+  border: 3px solid blue;
+  border-radius: 20px;
+  padding: 10px 20px;
+  z-index: 9999;
+}
+.buton3 {
+  position: absolute;
+  top: 31%;
+  left: 70%;
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid blue;
+  color: black;
+  font-weight: bold;
+}
+
+.modal3 {
+  position: absolute;
+  top: 14%;
+  left: 70%;
+  width: 300px;
+  background: #fff;
+  border: 3px solid blue;
+  border-radius: 20px;
+  padding: 10px 20px;
+  z-index: 9999;
+}
+.buton4 {
+  position: absolute;
+  top: 490px;
+  left: 30%;
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid blue;
+  color: black;
+  font-weight: bold;
+}
+
+.modal4 {
+  position: absolute;
+  top: 31%;
+  left: 30%;
+  width: 300px;
+  background: #fff;
+  border: 3px solid blue;
+  border-radius: 20px;
+  padding: 10px 20px;
+  z-index: 9999;
+}
+.buton5 {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid blue;
+  color: black;
+  font-weight: bold;
+}
+
+.modal5 {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  width: 300px;
+  background: #fff;
+  border: 3px solid blue;
+  border-radius: 20px;
+  padding: 10px 20px;
+  z-index: 9999;
+}
+.buton6 {
+  position: absolute;
+  top: 200px;
+  left: 30%;
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid blue;
+  color: black;
+  font-weight: bold;
+}
+
+.modal6 {
+  position: absolute;
+  top: 6%;
+  left: 30%;
+  width: 300px;
+  background: #fff;
+  border: 3px solid blue;
+  border-radius: 20px;
+  padding: 10px 20px;
+  z-index: 9999;
+}
+.buton7 {
+  position: absolute;
+  top: 36%;
+  left: 30%;
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid blue;
+  color: black;
+  font-weight: bold;
+}
+
+.modal7 {
+  position: absolute;
+  top: 23%;
+  left: 30%;
+  width: 300px;
+  background: #fff;
+  border: 3px solid blue;
+  border-radius: 20px;
+  padding: 10px 20px;
+  z-index: 9999;
+}
+.buton8 {
+  position: absolute;
+  top: 66%;
+  left: 20%;
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid blue;
+  color: black;
+  font-weight: bold;
+}
+
+.modal8 {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  width: 300px;
+  background: #fff;
+  border: 3px solid blue;
+  border-radius: 20px;
+  padding: 10px 20px;
+  z-index: 9999;
+}
+.close {
+  margin: 10px 0px;
+  color: #fff;
+  background: blue;
+  padding: 5px 8px;
+}
+@media screen and (max-width: 550px) {
+  .buton {
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    color: black;
+    font-weight: bold;
+  }
+
+  .modal {
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    width: 300px;
+    background: #fff;
+    border: 3px solid blue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    z-index: 9999;
+  }
+  .buton2 {
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    color: black;
+    font-weight: bold;
+  }
+
+  .modal2 {
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    width: 300px;
+    background: #fff;
+    border: 3px solid blue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    z-index: 9999;
+  }
+  .buton3 {
+    position: absolute;
+    top: 31%;
+    left: 0%;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    color: black;
+    font-weight: bold;
+  }
+
+  .modal3 {
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    width: 300px;
+    background: #fff;
+    border: 3px solid blue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    z-index: 9999;
+  }
+  .buton4 {
+    position: absolute;
+    top: 490px;
+    left: 30%;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    color: black;
+    font-weight: bold;
+  }
+
+  .modal4 {
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    width: 300px;
+    background: #fff;
+    border: 3px solid blue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    z-index: 9999;
+  }
+  .buton5 {
+    position: absolute;
+    top: 24%;
+    left: 70%;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    color: black;
+    font-weight: bold;
+  }
+
+  .modal5 {
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    width: 300px;
+    background: #fff;
+    border: 3px solid blue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    z-index: 9999;
+  }
+  .buton6 {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    color: black;
+    font-weight: bold;
+  }
+
+  .modal6 {
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    width: 300px;
+    background: #fff;
+    border: 3px solid blue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    z-index: 9999;
+  }
+  .buton7 {
+    position: absolute;
+    top: 36%;
+    left: 30%;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    color: black;
+    font-weight: bold;
+  }
+
+  .modal7 {
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    width: 300px;
+    background: #fff;
+    border: 3px solid blue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    z-index: 9999;
+  }
+  .buton8 {
+    position: absolute;
+    top: 66%;
+    left: 20%;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    color: black;
+    font-weight: bold;
+  }
+
+  .modal8 {
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    width: 300px;
+    background: #fff;
+    border: 3px solid blue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    z-index: 9999;
+  }
+}

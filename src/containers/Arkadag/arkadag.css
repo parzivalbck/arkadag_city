@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.arkadag_wrapper {
+  margin: 160px 0;
+  display: flex;
+  align-items: center;
+}
+.possibility {
+  position: relative;
+  overflow: hidden;
+  height: 580px;
+  padding-top: 70px;
+  margin-top: 40px;
+}
+.arkadag {
+  /* overflow: hidden; */
+  display: flex;
+  align-items: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 150px;
+}
+.possibility-image {
+  max-width: 600px;
+  margin-left: 100px;
+}
+
+.possibility-image img {
+  height: 500px;
+}
+.possibility-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  max-width: 600px;
+  /* margin-left: 50px; */
+}
+
+.possibility-content h1 {
+  font-weight: 800;
+  font-size: 34px;
+  /* line-height: 45px; */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.possibility-content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.possibility-content .slogan {
+  font-size: 28px;
+  font-weight: 700;
+  color: #393a3d;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+  letter-spacing: -1x;
+}
+.rombs {
+  width: 392px;
+  height: 392px;
+  border: 5px solid #2448c9;
+  border-radius: 75px;
+  transform: rotate(45deg);
+  margin-top: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.rombs .romb_image {
+  transform: rotate(-45deg);
+  margin-top: -15%;
+  margin-left: -1%;
+  width: 350px;
+  object-fit: contain;
+}
+.statistika {
+  /* margin: 0 auto; */
+  margin-left: 250px;
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 150px;
+  gap: 20px;
+}
+.bina {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  align-items: center;
+  flex-direction: row;
+}
+.bina .data {
+  text-transform: uppercase;
+}
+.bina .data h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #393a3d;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.bina .data p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #393a3d;
+}
+
+.bina img {
+  width: 110px;
+}
+
+.rombleft1 {
+  width: 300px;
+  position: absolute;
+  top: -30px;
+  left: -180px;
+}
+.rombleft2 {
+  width: 300px;
+  position: absolute;
+  top: 320px;
+  left: -180px;
+}
+
+@media screen and (max-width: 950px) {
+  .possibility {
+    flex-direction: column;
+  }
+  .possibility-image {
+    margin: 1rem 0px;
+  }
+  .possibility-content {
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 950px) {
+  .statistika {
+    grid-template-columns: 1fr;
+  }
+  .bina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .rombleft1 {
+    display: none;
+  }
+  .rombleft2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 550px) {
+  .rombleft1 {
+    display: none;
+  }
+  .rombleft2 {
+    display: none;
+  }
+  .header-image {
+    display: none;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .possibility {
+    margin: 0;
+    padding: 0;
+  }
+  .possibility-content {
+    max-width: 250px;
+    margin: 10px auto;
+    padding: 0;
+  }
+  .possibility-content h1 {
+    font-size: 24px;
+    margin: 0;
+    margin-top: -150px;
+  }
+  .possibility-content p {
+    font-size: 15px;
+  }
+  .possibility-image .rombs {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 0;
+  }
+  .possibility-image .rombs img {
+    width: 80%;
+    position: absolute;
+    top: -110px;
+    left: 20px;
+  }
+  .statistika {
+    display: flex;
+    flex-direction: column;
+    margin-left: 45%;
+  }
+  .bina {
+    width: 60px;
+    height: 80px;
+    margin-bottom: 40px;
+  }
+  .bina img {
+    width: 60px;
+    /* height: 70px; */
+  }
+  .bina .data h1 {
+    font-size: 14px;
+  }
+  .arkadag_wrapper {
+    margin: 0px 0;
+    display: flex;
+    align-items: center;
+  }
+}
